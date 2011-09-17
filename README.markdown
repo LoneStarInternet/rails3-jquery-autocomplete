@@ -52,6 +52,10 @@ And include autocomplete-rails.js on your layouts
 
     javascript_include_tag "autocomplete-rails.js"
 
+If you use rails3.1 (or above), add next code in application.js (above javascript_include_tag is unnecessary)
+
+    //= require jquery-ui
+
 ## Upgrading from older versions
 
 If you are upgrading from a previous version, run the generator after installing to replace the javascript file.
